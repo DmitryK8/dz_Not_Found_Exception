@@ -2,7 +2,7 @@ package ru.netology.manager;
 
 import ru.netology.domain.Book;
 import ru.netology.domain.Product;
-import ru.netology.domain.TShirt;
+import ru.netology.domain.Smartphone;
 import ru.netology.repository.ProductRepository;
 
 public class ProductManager {
@@ -57,8 +57,8 @@ public class ProductManager {
             return false;
         }
 
-        if (product instanceof TShirt) {
-            TShirt smartphone = (TShirt) product;
+        if (product instanceof Smartphone) {
+            Smartphone smartphone = (Smartphone) product;
             if (smartphone.getProduction().contains(search)) {
                 return true;
             }

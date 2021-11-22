@@ -3,7 +3,7 @@ package ru.netology.manager;
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.Book;
 import ru.netology.domain.Product;
-import ru.netology.domain.TShirt;
+import ru.netology.domain.Smartphone;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,9 +15,9 @@ class ProductManagerTest {
     private Book book53 = new Book(26, "Book53", 350, "Вася Пупкин");
     private Book book35 = new Book(17, "Book35", 260, "Сидор Сидоров");
 
-    private TShirt samsungN = new TShirt(17, "Galaxy Note 20 ultra", 85000, "Samsung");
-    private TShirt sony = new TShirt(26, "xs", 12000, "Sony");
-    private TShirt samsungS = new TShirt(35, "Galaxy S7Edge", 15000, "Samsung");
+    private Smartphone samsungN = new Smartphone(17, "Galaxy Note 20 ultra", 85000, "Samsung");
+    private Smartphone sony = new Smartphone(26, "xs", 12000, "Sony");
+    private Smartphone samsungS = new Smartphone(35, "Galaxy S7Edge", 15000, "Samsung");
     private Product product = new Product(8, "Xiaomi", 24000);
 
     @Test
