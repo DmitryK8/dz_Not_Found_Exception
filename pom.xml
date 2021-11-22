@@ -45,14 +45,14 @@
                 <version>0.8.5</version>
                 <executions>
                     <execution>
-                        <id>prepare-agent-  Дмитрий**888**</id>
+                        <id>prepare-agent-  $$+Дмитрий**888**</id>
                         <!--                        <phase>initialize</phase>-->
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>report  Дмитрий**88888888**</id>
+                        <id>report  $$+Дмитрий**88888888**</id>
                         <!--                        <phase>verify</phase>-->
                         <goals>
                             <goal>report</goal>
