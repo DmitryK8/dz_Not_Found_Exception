@@ -8,12 +8,4 @@ public class Smartphone extends Product {
         this.production = production;
 
     }
-
-    public String getProduction() {
-        return production;
-    }
-
-    public void setProduction(String production) {
-        this.production = production;
-    }
 }
