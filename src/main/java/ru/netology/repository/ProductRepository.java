@@ -19,7 +19,7 @@ public class ProductRepository {
         return items;
     }
 
-    public void removeById(int id) {
+    public void searchId(int id) {
         int length = items.length - 1;
         Product[] tmp = new Product[length];
         int index = 0;

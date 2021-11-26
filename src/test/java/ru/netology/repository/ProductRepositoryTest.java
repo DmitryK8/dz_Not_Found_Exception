@@ -43,13 +43,13 @@ class ProductRepositoryTest {
     }
 
     @Test
-    public void shouldRemoveId() {
-        int idRemove = 117;
+    public void shouldSearchId() {
+        int idSearch = 1107;
 
         repository.save(goodBook8);
         repository.save(goodBook17);
         try {
-        repository.removeById(idRemove);
+        repository.searchId(idSearch);
 
         Product[] expected = new Product[]{goodBook8};
 
@@ -62,13 +62,13 @@ class ProductRepositoryTest {
     }
 
     @Test
-    public void shouldRemoveId117() {
-        int idRemove = 1000;
+    public void shouldSearchId117() {
+        int idSearch = 1000;
 
         repository.save(goodBook8);
         repository.save(goodBook17);
         try {
-            repository.removeById(idRemove);
+            repository.searchId(idSearch);
 
             Product[] expected = new Product[]{goodBook8};
 
