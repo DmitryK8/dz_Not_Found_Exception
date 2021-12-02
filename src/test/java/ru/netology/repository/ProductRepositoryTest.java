@@ -35,6 +35,4 @@ class ProductRepositoryTest {
         Product expected = null;
         assertThrows(NotFoundException.class, () -> repository.removeById(1000));
     }
-
-
 }
