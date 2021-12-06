@@ -44,18 +44,15 @@ public class ProductManager {
             if (book.getName().contains(search)) {
                 return true;
             }
-
             return false;
         }
         if (product instanceof Smartphone) {
             Smartphone smartphone = (Smartphone) product;
-
             if (smartphone.getName().contains(search)) {
                 return true;
             }
             return false;
         }
-
         return false;
     }
 }

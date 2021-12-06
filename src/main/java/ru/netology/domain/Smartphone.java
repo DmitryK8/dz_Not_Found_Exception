@@ -6,6 +6,5 @@ public class Smartphone extends Product {
     public Smartphone(int id, String name, int price, String production) {
         super(id, name, price);
         this.production = production;
-
     }
 }
